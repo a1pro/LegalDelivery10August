@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="serviceresults">
+        <item>n/a</item>
+        <item>Personal</item>
+        <item>Personal Plus</item>
+        <item>Substitute</item>
+        <item>Conspicuous</item>
+        <item>Corporation</item>
+    </string-array>    
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <TextView android:text="Entry" android:textColor="@color/opaque_green" android:textSize="30dp" android:textStyle="bold" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+    <CheckBox android:text="WALKUP" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxWALKUP" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="ELEVAT" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxELEVAT" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="STOREFRONT" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxSTOREFRONT" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+  	
+  	<Button
+		android:id="@+id/saveButton3"
+		android:layout_width="match_parent"
+		android:layout_height="75dp"
+		android:text="Save" />
+  	
+  	<Button
+   	    android:id="@+id/backToDeliveryInfo"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="75dp"
+   	    android:text="Back to Delivery Info" />
+  	 	
+
+ 	<Button
+   	    android:id="@+id/backToSearch2Button"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="75dp"
+   	    android:text="Back to Search" /> 
+   	    
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/ic_action_download"
+        android:title="Download New Services">
+    </item>
+    <item
+        android:id="@+id/sync"
+        android:icon="@drawable/ic_action_upload"
+        android:title="Synchronize Services">
+    </item>
+    <item
+        android:id="@+id/register"
+        android:icon="@drawable/device_icon"
+        android:title="Register Device">
+    </item>
+    <item
+        android:id="@+id/downloadHolidays"
+        android:title="Download Holidays">
+    </item>
+    <item
+        android:id="@+id/editPreferences"
+        android:title="Edit Preferences">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit">
+    </item>
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+
+     <ScrollView
+        android:layout_width="190dp"
+        android:layout_height="match_parent" >
+
+        <fragment
+            android:id="@+id/FilterFragmentID"
+            android:name="com.aetherti.legaldelivery.gr.antalakas.android.LegalDelivery.FilterFragment"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content" />
+        
+       
+       </ScrollView>
+   <!--  Edit- Bcgrnd Change:  /> -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#294973"
+        android:orientation="vertical" />
+
+    
+      <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <fragment
+            android:id="@+id/FilterResultFragmentID"
+            android:name="com.aetherti.legaldelivery.gr.antalakas.android.LegalDelivery.FilterResultFragment"
+            android:layout_width="680dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+       
+    </LinearLayout>
+      </HorizontalScrollView>
+
+</LinearLayout>

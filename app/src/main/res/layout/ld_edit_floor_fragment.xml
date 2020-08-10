@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+  	<TextView android:text="Floor" android:textColor="@color/opaque_green" android:textSize="30dp" android:textStyle="bold" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+   
+    <LinearLayout
+  		
+  		android:orientation="horizontal"
+  		android:weightSum="1"
+  		android:layout_width="match_parent"
+  		android:layout_height="match_parent">
+    
+	    <LinearLayout
+	  		
+	  		android:orientation="vertical"
+	  		android:layout_weight="0.5"
+	  		android:layout_width="0dp"
+	  		android:layout_height="match_parent">
+	    
+		    <CheckBox android:text="WHTE" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxWHTE" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="LTBR" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxLTBR" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="BRWN" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxBRWN" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="BLUE" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxBLUE" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="GREN" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxGREN" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="GRAY" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxGRAY" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="RED" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxRED" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="BEIG" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxBEIG" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="BLK" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBoxBLK" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>	    
+	   
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_weight="0.5"
+			android:layout_width="0dp"
+			android:layout_height="match_parent">
+    
+		    <CheckBox android:text="TILE" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxTILE" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="CARP" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxCARP" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="CMNT" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxCMNT" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="WOOD" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxWOOD" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+		    <CheckBox android:text="TRRZO" android:textSize="22dp" android:paddingBottom="30dp" android:paddingTop="30dp" android:id="@+id/checkBoxTRRZO" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>    
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

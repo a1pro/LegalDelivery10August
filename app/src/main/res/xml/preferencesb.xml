@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!--  <PreferenceCategory
+        android:key="Date_config"
+        android:title="Date Configuration" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="date_config"
+            android:summary="if saturday is dilivery day then check it!"
+            android:title="Saturday Delivery ?" />
+        
+             <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/saturdayDeliver"
+            android:entryValues="@array/saturdayDeliverValues"
+            android:key="saturday_deliver"
+            android:summary="Define if documents can be delivered on Saturday"
+            android:title="Saturday Deliver" />
+ -->
+
+       
+  <!--   </PreferenceCategory> 
+     <PreferenceCategory
+        android:key="time_config"
+        android:title="Time Configuration" >
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/anytimeDeliver"
+            android:entryValues="@array/anytimeDeliverValues"
+            android:key="anytime_deliver"
+            android:summary="Define if documents can be delivered any time except 22:30-05:59"
+            android:title="Anytime Deliver" />
+    </PreferenceCategory>  -->
+    
+    <PreferenceCategory
+        android:key="show_complexview"
+        android:title="Complex View" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_complexview"
+            android:summary="check if you need complex details:"
+            android:title="Show complex: " />
+    </PreferenceCategory> 
+
+</PreferenceScreen>

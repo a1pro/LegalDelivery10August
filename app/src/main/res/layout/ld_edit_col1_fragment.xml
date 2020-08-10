@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" 
+    android:background="#00000000" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Results"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_green"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/serviceresultSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/dateofserviceLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/dateofserviceStaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of service"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/serveDateInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dateofserviceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timeofserviceLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/timeofserviceStaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Time of service"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/serveTimeInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/timeofserviceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+     <LinearLayout 
+			android:layout_marginTop="15dp" 
+			android:layout_marginBottom="15dp" 
+			android:layout_height="1dp" 
+			android:id="@+id/mobiletimeofserviceLinearLayout" 
+			android:layout_width="match_parent"
+			android:orientation="horizontal" 
+			android:background="#294973" />	
+			
+         <TextView
+	        android:textSize="32sp"
+	        android:id="@+id/mobiletimeStaticTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="GPS Time of service"
+	        android:textColor="@color/opaque_red"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+            
+        <LinearLayout
+            android:id="@+id/mobileserveTimeInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal" > 
+            
+             <TextView
+                android:id="@+id/mobiletimeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"                
+                android:layout_marginTop="12dp"
+                android:textSize="32sp" 
+                />
+        </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/gpsdate3StaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of third attempt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/thirdAtmptDateInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/gpsdate3TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gpsdate3linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/gpstime3StaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile of third attempt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/thirdAtmptTimeInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/gpstime3TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/gpstime3linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />  
+			
+         <TextView
+	        android:textSize="32sp"
+	        android:id="@+id/mobiletimeofthirdattemptStaticTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="GPS Time of third attempt"
+	        android:textColor="@color/opaque_red"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+            
+        <LinearLayout
+            android:id="@+id/mobiletimeofthirdattemptserveTimeInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal" > 
+            
+             <TextView
+                android:id="@+id/mobiletimeofthirdattemptTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"                
+                android:layout_marginTop="12dp"
+                android:textSize="32sp" />
+        </LinearLayout>
+           <LinearLayout 
+			android:layout_marginTop="15dp" 
+			android:layout_marginBottom="15dp" 
+			android:layout_height="1dp" 
+			android:id="@+id/mobiletimeofthirdattemptLinearLayout" 
+			android:layout_width="match_parent"
+			android:orientation="horizontal" 
+			android:background="#294973" />	 
+
+    <TextView
+        android:id="@+id/gpsdate2StaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of second attempt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/secondAtmptDateInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/gpsdate2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"/>
+    </LinearLayout>
+    <!-- sadjkflaskjdf -->
+
+    <LinearLayout
+        android:id="@+id/gpsdate2linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/gpstime2StaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile of second attempt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/secondAtmptTimeInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/gpstime2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gpstime2linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+    
+    
+    
+   <!--     <LinearLayout 
+			android:layout_marginTop="15dp" 
+			android:layout_marginBottom="15dp" 
+			android:layout_height="1dp" 
+			android:id="@+id/mobiletimeofsecondattemptLinearLayout" 
+			android:layout_width="match_parent"
+			android:orientation="horizontal" 
+			android:background="#294973" />-->	
+			
+         <TextView
+	        android:textSize="32sp"
+	        android:id="@+id/mobiletimeofsecondattemptStaticTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="GPS Time of second attempt"
+	        android:textColor="@color/opaque_red"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+            
+        <LinearLayout
+            android:id="@+id/mobiletimeofsecondattemptserveTimeInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal" > 
+            
+             <TextView
+                android:id="@+id/mobiletimeofsecondattemptTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"                
+                android:layout_marginTop="12dp"
+                android:textSize="32sp" />
+        </LinearLayout>
+        
+    <LinearLayout 
+			android:layout_marginTop="15dp" 
+			android:layout_marginBottom="15dp" 
+			android:layout_height="1dp" 
+			android:id="@+id/mobiletimeofsecondattemptLinearLayout1" 
+			android:layout_width="match_parent"
+			android:orientation="horizontal" 
+			android:background="#294973" />
+    
+
+    <TextView
+        android:id="@+id/gpsdate1StaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of first attempt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/firstAtmptDateInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/gpsdate1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gpsdate1linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/gpstime1StaticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile of first attempt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/opaque_red"
+        android:textSize="30sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/firstAtmptTimeInnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/gpstime1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gpstime1linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#294973"
+        android:orientation="horizontal" />
+  <LinearLayout 
+			android:layout_marginTop="15dp" 
+			android:layout_marginBottom="15dp" 
+			android:layout_height="1dp" 
+			android:id="@+id/mobiletimeoffirstattemptLinearLayout" 
+			android:layout_width="match_parent"
+			android:orientation="horizontal" 
+			android:background="#294973" />	
+			
+         <TextView
+	        android:textSize="32sp"
+	        android:id="@+id/mobiletimeoffirstattemptStaticTextView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="GPS Time of first attempt"
+	        android:textColor="@color/opaque_red"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+            
+        <LinearLayout
+            android:id="@+id/mobiletimeoffirstattemptserveTimeInnerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal"> 
+            
+             <TextView
+                android:id="@+id/mobiletimeoffirstattempt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"                
+                android:layout_marginTop="12dp"
+                android:textSize="32sp" />
+        </LinearLayout>
+       
+    
+    
+</LinearLayout>
+
+

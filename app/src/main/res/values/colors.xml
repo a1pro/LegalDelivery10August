@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  	<color name="opaque_red">#f00</color>
+  	<color name="opaque_green">#0f0</color>
+  	<color name="opaque_blue">#00f</color>
+   	<color name="translucent_red">#80ff0000</color>
+	<color name="grey_black">#5C5B5D</color>
+   	<style name="my_theme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+       <item name="android:background">#212125</item>
+    </style>
+	<!--#294973 blue-->
+</resources>

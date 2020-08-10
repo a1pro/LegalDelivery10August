@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="Age" android:textColor="@color/opaque_green" android:textSize="30dp" android:textStyle="bold" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+    <CheckBox android:text="14-17" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox1417" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="18-21" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox1821" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="22-30" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox2230" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="31-39" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox3139" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="40-49" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox4049" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="50-59" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox5059" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="60-69" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox6069" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="70+" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="15dp" android:id="@+id/checkBox70" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+   
+</LinearLayout>

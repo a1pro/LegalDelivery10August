@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.25"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+	 <TextView
+        android:id="@+id/ServerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connected to:" 
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/DomainLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp" />  
+       <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="#1E90FF" />  
+  
+	<TextView 
+	    android:textSize="20sp" 
+	  	 android:id="@+id/txt1" 
+	    android:text="Name"
+		android:maxLines="1"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"/>
+	
+	<EditText 
+	    android:textSize="20sp" 
+	    android:id="@+id/fullnameEditText" 
+	    android:paddingBottom="30dp"
+		android:maxLines="1"
+		android:imeOptions="actionNext"
+		android:singleLine="true"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:inputType="textPersonName"/>
+		
+	<!-- Address -->
+	<!-- Same here:android:textColor="@color/opaque_green"
+					 android:textAppearance="?android:attr/textAppearanceLarge"
+	 -->
+   	<TextView 
+   	    android:textSize="20sp" 
+   	    android:id="@+id/txt2" 
+   	    android:text="Address"
+   	    android:layout_width="wrap_content" 
+   	    android:layout_height="wrap_content"/>
+	
+	<EditText 
+	    android:textSize="20sp" 
+	    android:id="@+id/addressEditText" 
+	    android:paddingBottom="30dp"
+		android:maxLines="1"
+		android:imeOptions="actionNext"
+		android:singleLine="true"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"/>
+	
+	<!-- Apt # -->
+	<!-- same here:android:textColor="@color/opaque_green"
+	    android:textAppearance="?android:attr/textAppearanceLarge" 
+	    
+	
+	 -->
+	<TextView 
+	    android:textSize="20sp" 
+	    android:id="@+id/txt3" 
+	    android:text="Apt/Store"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"/>
+	
+	<EditText 
+	    android:textSize="20sp" 
+	    android:paddingBottom="30dp"
+	    android:id="@+id/aptEditText"
+		android:maxLines="1"
+		android:singleLine="true"
+		android:imeOptions="actionDone"
+	    android:layout_width="match_parent"
+	   	android:layout_height="wrap_content"/>	    
+	   	<!-- Service Type -->
+ 	<!-- Same here: android:textColor="@color/opaque_green"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        -->
+    <TextView 
+        android:textSize="20sp" 
+        
+        android:id="@+id/txtServiceType" 
+        android:text="Service Type"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>    
+        
+   	<Spinner 
+ 	  	android:textSize="20sp" 
+ 	    android:paddingBottom="30dp"
+        android:id="@+id/servicetypeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/servicetypes"/>    
+	
+	<!-- Case Paper Type -->
+	<!-- android:textColor="@color/opaque_green"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+         -->
+    <TextView 
+        android:textSize="20sp" 
+        android:id="@+id/txtCasePaperType" 
+        android:text="Case Paper Type"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>	
+
+ 	<Spinner 
+ 	    android:textSize="20sp" 
+ 	    android:paddingBottom="30dp"
+        android:id="@+id/ltservicetypeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+       <!--  android:entries="@array/ltservicetypes"/> -->
+
+ 	
+		
+   	<!-- Input Date -->
+   	<!-- same here:  android:textColor="@color/opaque_green"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+       -->
+    <TextView 
+        android:textSize="20sp" 
+        android:id="@+id/txt4" 
+        android:text="Input Date"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+   
+   	<TextView 
+   	    android:textSize="20sp" 
+   	    android:text="[Not Set]"
+   	    android:paddingBottom="15dp"
+        android:id="@+id/inputDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+	<!-- 
+	<CalendarView 
+	    android:id="@+id/inputdate" 
+	    android:layout_height="350dp" 
+	    android:layout_width="364dp"/>-->
+	
+	<LinearLayout
+		
+		android:orientation="horizontal"
+		android:layout_weight="0.25"
+		android:layout_width="match_parent"
+		android:layout_height="0dp">
+
+   	<Button 
+   	    style="?android:attr/buttonBarButtonStyle"
+   	    android:paddingRight="10sp"
+        android:id="@+id/clearButton" 
+        android:text="Clear Filters" 
+        android:layout_width="100dp" 
+        android:layout_height="60dp"
+        />  
+    <Button 
+        style="?android:attr/buttonBarButtonStyle"
+        android:paddingLeft="10sp"
+        android:id="@+id/searchButton" 
+        android:text="Search" 
+        android:layout_width="100dp" 
+        android:layout_height="60dp"
+        />
+    
+   
+    </LinearLayout>
+    
+</LinearLayout>

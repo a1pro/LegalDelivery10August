@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/show_settings_daysSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Days selected: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/text_show_settings_daysSelected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[not set]"
+                
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/show_settings_SaturdayDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is Saturday Delivery possible? "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/text_show_settings_SaturdayDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[not set]"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/show_settings_AnyTimeDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is Any time delivery possible? "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/text_show_settings_AnyTimeDelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[not set]"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/show_settings_showConsole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Showing console? "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/text_show_setting_showConsole"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[not set]"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <TextView android:text="Hair" android:textColor="@color/opaque_green" android:textSize="30dp" android:textStyle="bold"  android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+    <CheckBox android:text="WHTE" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxWHTE" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="BLK" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxBLK" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="LT BRN" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxLTBRN" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="BRN" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxBRN" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="GRAY" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxGRAY" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="RED" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxRED" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="BALD" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/checkBoxBALD" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+     <CheckBox android:text="Blonde" android:textSize="22dp" android:paddingBottom="15dp" android:paddingTop="22dp" android:id="@+id/hairBLCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    
+</LinearLayout>

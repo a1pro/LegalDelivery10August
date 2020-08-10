@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <TextView android:text="Sex" 
+        android:layout_height="wrap_content" 
+        android:textColor="@color/opaque_green" 
+        android:textSize="30dp" 
+        android:textStyle="bold" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content" 
+        android:id="@+id/textView1">
+  	</TextView>
+    
+    <CheckBox android:text="M" 
+        android:id="@+id/checkBoxM" 
+        android:textSize="22dp" android:paddingBottom="40dp" android:paddingTop="40dp" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        
+    </CheckBox>
+    
+    <CheckBox android:text="F" 
+        android:id="@+id/checkBoxF" 
+        android:textSize="22dp" android:paddingBottom="40dp" android:paddingTop="40dp" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        
+    </CheckBox>
+    
+ 	<Button
+   	    android:id="@+id/saveButton2"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="75dp"
+   	    android:text="Save" />
+ 	
+ 	<Button
+   	    android:id="@+id/backToDeliveryInfo"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="75dp"
+   	    android:text="Back to Delivery Info" /> 
+ 	
+ 	<Button
+   	    android:id="@+id/backToSearch1Button"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="75dp"
+   	    android:text="Back to Search" /> 	
+   	   	
+</LinearLayout>

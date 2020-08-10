@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LegalDeliveryActivity!</string>
+    <string name="app_name">LegalDelivery 1.0.17</string>
+    <string name="personSeenPersonal_spinner_title">Select Person Seen</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first_attempt">1st attempt</string>
+    <string name="second_attempt">2nd attempt</string>
+    <string name="third_attempt">3rd attempt</string>
+    <string name="Lat">Lat:</string>
+    <string name="Lon">Lon:</string>
+    <string name="completed">Completed</string>
+    <string name="show_on_map">Show on Map</string>
+    <string name="person_seen_personal">Person Seen (Personal)</string>
+    <string name="person_seen_substitute">Person Seen (Substitute)</string>
+    <string name="no_name_given">No Name Given</string>
+    <string name="name_given">Name Given</string>
+    <string name="save">Save</string>
+    <string name="person_not_seen_personalplus">Person(s) Not Seen (Personal Plus)</string>
+    <string name="corp_recipient">Corp. Recipient</string>
+    <string name="corp_recipient_title">Corp. Recipient Title</string>
+
+</resources>

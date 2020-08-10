@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="saturdayDeliver">
+        <item name="1">Deliver on Saturday</item>
+        <item name="2">Cannot deliver on Saturday</item>
+    </string-array>
+
+    <string-array name="saturdayDeliverValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    
+  	<string-array name="anytimeDeliver">
+        <item name="1">Cannot deliver any time</item>
+        <item name="2">Deliver any time</item>
+    </string-array>
+
+    <string-array name="anytimeDeliverValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+</resources>

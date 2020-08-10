@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ltservicetypes">
+        <item>[Not Set]</item>
+        <item>3 Day</item>
+        <item>5 Day</item>
+        <item>10 Day</item>
+        <item>15 Day</item>
+        <item>30 Day Notice of Termination</item>
+        <item>Notice of Petition &amp; Petition</item>
+        <item>Notice of Petition &amp; Petition Holdover</item>
+        <item>Other L&amp;T</item>
+        <item>3 Day Notice &amp; 30 Day Deptor</item>
+    </string-array>    
+</resources>

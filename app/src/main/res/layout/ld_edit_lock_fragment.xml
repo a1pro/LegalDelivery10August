@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    <TextView android:text="Locks" android:textColor="@color/opaque_green" android:textSize="30dp" android:textStyle="bold" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+    <CheckBox android:text="BELL" android:textSize="22dp" android:paddingBottom="25dp" android:paddingTop="25dp" android:id="@+id/checkBoxBELL" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="PEEP" android:textSize="22dp" android:paddingBottom="25dp" android:paddingTop="25dp" android:id="@+id/checkBoxPEEP" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="KNOCK" android:textSize="22dp" android:paddingBottom="25dp" android:paddingTop="25dp" android:id="@+id/checkBoxKNOCK" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="APT#" android:textSize="22dp" android:paddingBottom="25dp" android:paddingTop="25dp" android:id="@+id/checkBoxAPT" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <CheckBox android:text="NMPL" android:textSize="22dp" android:paddingBottom="25dp" android:paddingTop="25dp" android:id="@+id/checkBoxNMPL" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    
+	<LinearLayout 
+		android:id="@+id/doorLocks"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:weightSum="1">
+			
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Door Locks"
+	        android:textColor="@color/opaque_green"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	    <EditText
+	        android:id="@+id/doorlocksEditText"
+	        android:inputType="number"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	    
+	</LinearLayout>
+    
+</LinearLayout>

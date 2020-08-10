@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:id="@+id/txt1"
+	    android:text="Download Services"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+
+ 	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout1001"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+ 	<TextView
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:id="@+id/txtFrom"
+	    android:text="From Date"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+
+ 	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout1002"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+	<TextView
+
+        android:id="@+id/fromDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:layout_marginTop="10dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginBottom="10dp" />
+
+ 	<TextView
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:id="@+id/txtTo"
+	    android:text="To Date"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+
+ 	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout1003"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+	<TextView
+
+        android:id="@+id/toDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:layout_marginTop="10dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginBottom="10dp" />
+
+ 	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout1004"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+    <Button
+        android:id="@+id/downloadFilteredButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:textSize="16sp"
+        android:text="Download using Date Filter" />
+
+	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout1"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+		android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_action_download" />
+
+   	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout132"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+	<TextView
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:id="@+id/txt15"
+	    android:text="Records Downloaded:"
+	    android:layout_width="wrap_content"
+
+	    android:layout_height="wrap_content"/>
+
+	<TextView
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:id="@+id/numOfRecords"
+	    android:text=""
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"/>
+
+ 	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout178"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+    <Button
+        android:id="@+id/selectAllButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select All"
+		android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_action_select_all" />
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="1dp"
+        android:id="@+id/linearLayout179"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#294973" />
+    <Button
+        android:id="@+id/clearAllButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear All"
+		android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_clear_all_24x24" />
+
+   	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout165"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+		android:textSize="16sp"
+        android:drawableLeft="@drawable/ic_action_save" />
+
+   	<LinearLayout
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="10dp"
+		android:layout_height="1dp"
+		android:id="@+id/linearLayout134"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#294973" />
+
+    <Button
+        android:id="@+id/saveWithResultsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Save with Results" />
+
+</LinearLayout>

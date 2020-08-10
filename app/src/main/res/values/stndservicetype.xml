@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stndservicetypes">
+        <item>[Not Set]</item>
+        <item>Summons</item>
+        <item>Summons w/notice</item>
+        <item>Summons w/verified complaint</item>
+        <item>Summons w/notice &amp; w/verified complaint</item>
+        <item>Summons w/endorsed complaint</item>
+        <item>Citation</item>
+        <item>Judicial Subpoena</item>
+        <item>Judicial Subpoen Ducestecum</item>
+        <item>Judicial Subpoen &amp; Judicial Subpoen Ducestecum</item>
+        <item>Notice of Petation &amp; Petation</item>
+        <item>Order to show cause</item>
+        <item>Order Standard</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/uploadLinearHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+<ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+    <fragment
+        android:id="@+id/UploadControlFragmentID"
+        android:name="com.aetherti.legaldelivery.gr.antalakas.android.LegalDelivery.Upload.UploadControlFragment"
+        android:layout_width="180dp"
+        android:layout_height="match_parent" />
+  
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#294973"
+        android:orientation="vertical" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <fragment
+            android:id="@+id/UploadListFragmentID"
+            android:name="com.aetherti.legaldelivery.gr.antalakas.android.LegalDelivery.Upload.UploadListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </HorizontalScrollView>
+
+</LinearLayout>
